@@ -1,0 +1,17 @@
+Linify Progress
+
+ - Signin ✔
+ - Signup ✔
+ - Logout ✔
+ - Add Url
+ - Edit Url
+ - Delete Url
+ - Redirect Url (Important!)
+
+
+Additional base practice
+
+ - Use Flasher for add alert
+ - Use csrf token for evry form
+
+
