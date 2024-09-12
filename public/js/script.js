@@ -8,11 +8,15 @@ $(function () {
     );
     $("#original_url").val("");
     $("#short_url").val("");
+    $("label").remove(".error");
   });
 
   $(".modalEdit").on("click", function () {
     $(".modal-title").html("Edit Url");
     $(".modal-footer button[type=submit]").html("Save change");
+    $("label").remove(".error");
+    $("#original_url").css("color", "#232527");
+        $("#short_url").css("color", "#232527");
     $(".modal-body form").attr(
       "action",
       "http://localhost/linify/public/myurls/edit"
