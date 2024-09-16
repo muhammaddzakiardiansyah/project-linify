@@ -41,6 +41,7 @@ Flasher::flash();
       <div class="modal-body">
         <form action="<?= base_url("myurls/add") ?>" id="create_url" method="post">
           <input type="hidden" name="csrf_token" value="<?= $_SESSION["csrf_token"] ?>">
+          <input type="hidden" name="id" id="id">
           <div class="mb-3">
             <label for="original_url" class="regular mb-2 text-black">Original Url</label>
             <input type="text" name="original_url" id="original_url" class="form-control">

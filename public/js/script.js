@@ -32,6 +32,7 @@ $(function () {
       success: function (data) {
         $("#original_url").val(data.original_url);
         $("#short_url").val(data.short_url);
+        $("#id").val(data.id);
       },
     });
   });
